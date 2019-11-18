@@ -1,0 +1,42 @@
+footer {
+  height: .48rem;
+  border-top: 1px solid #ccc;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+footer ul li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+
+footer ul li a i {
+  color: #666;
+  font-size: .14rem;
+  margin-bottom: .04rem;
+}
+
+footer ul li a span {
+  font-size: .12rem;
+  color: #666;
+}
+
+footer ul li a.active i {
+  color: #e54847;
+}
+
+footer ul li a.active span {
+  color: #e54847;
+  font-weight: bold;
+}
